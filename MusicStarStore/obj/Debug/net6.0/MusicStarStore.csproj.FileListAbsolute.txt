@@ -217,7 +217,6 @@ C:\Users\Admin\source\repos\MusicStarStore\MusicStarStore\obj\Debug\net6.0\stati
 C:\Users\Admin\source\repos\MusicStarStore\MusicStarStore\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Admin\source\repos\MusicStarStore\MusicStarStore\obj\Debug\net6.0\scopedcss\bundle\MusicStarStore.styles.css
 C:\Users\Admin\source\repos\MusicStarStore\MusicStarStore\obj\Debug\net6.0\scopedcss\projectbundle\MusicStarStore.bundle.scp.css
-C:\Users\Admin\source\repos\MusicStarStore\MusicStarStore\obj\Debug\net6.0\MusicStarStore.csproj.CopyComplete
 C:\Users\Admin\source\repos\MusicStarStore\MusicStarStore\obj\Debug\net6.0\MusicStarStore.dll
 C:\Users\Admin\source\repos\MusicStarStore\MusicStarStore\obj\Debug\net6.0\refint\MusicStarStore.dll
 C:\Users\Admin\source\repos\MusicStarStore\MusicStarStore\obj\Debug\net6.0\MusicStarStore.pdb
@@ -251,3 +250,5 @@ C:\Users\Admin\source\repos\MusicStarStore\MusicStarStore\bin\Debug\net6.0\runti
 C:\Users\Admin\source\repos\MusicStarStore\MusicStarStore\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Admin\source\repos\MusicStarStore\MusicStarStore\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Admin\source\repos\MusicStarStore\MusicStarStore\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Admin\source\repos\MusicStarStore\MusicStarStore\obj\Debug\net6.0\MusicStarStore.sourcelink.json
+C:\Users\Admin\source\repos\MusicStarStore\MusicStarStore\obj\Debug\net6.0\MusicSta.929DF684.Up2Date
