@@ -1,0 +1,52 @@
+﻿@model IEnumerable<MusicStarStore.Models.Domain.Genre>
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie store</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/forms.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+          rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="icon"
+          href="/images/movie_filter_FILL0_wght400_GRAD0_opsz48.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap"
+          rel="stylesheet" />
+</head>
+<body>
+    <section class="container">
+        <div class="tbl-container">
+            <h2>Genres</h2>
+
+            <table>
+
+                <tr>
+                    <th>Name</th>
+                    <th>Action</th>
+                </tr>
+                @foreach (var item in Model) {  
+                    <tr>
+                    <td>@item.GenreName</td>
+                    <td>
+                        <a href="/Genre/Edit?id=@item.Id" class="btn btn-default"><i class="fa fa-edit"></i></a>
+                        <a onclick="return window.confirm('Are you sure?')" href="/Genre/Delete?id=@item.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                    </td>
+                </tr> 
+                }
+            </table>
+            <div class="input-container">
+                <a href="/Genre/Add" class="btn btn-sec">Back</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
