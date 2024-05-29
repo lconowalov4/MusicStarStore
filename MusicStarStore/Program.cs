@@ -11,6 +11,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IUserAuthenticationService, UserAuthenticationService>();
 builder.Services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("conn")));
 builder.Services.AddScoped<IGenreService, GenreService>();
+builder.Services.AddScoped<IFileService, FileService>();
+builder.Services.AddScoped<IVinylService, VinylService>();
 
 // For Identity  
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
