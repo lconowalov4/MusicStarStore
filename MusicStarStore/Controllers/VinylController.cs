@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using MusicStarStore.Models.Domain;
 using MusicStarStore.Repositories.Abstract;
 
@@ -10,33 +11,43 @@ namespace MusicStarStore.Controllers
     {
         private readonly IVinylService _vinylService;
 
-        private readonly IFileService _filelService;
-        public VinylController(IVinylService vinylService, IFileService filelService) 
+        private readonly IFileService _fileService;
+        
+        private readonly IGenreService _genService;
+        public VinylController(IGenreService genService, IVinylService vinylService, IFileService fileService) 
         {
             _vinylService = vinylService;
-            _filelService = filelService;
+            _fileService = fileService;
+            _genService = genService;
         }
 
         public IActionResult Add()
         {
-            return View();
+            var model = new Vinyl();
+            model.GenreList = _genService.List().Select(a => new SelectListItem { Text = a.GenreName, Value = a.Id.ToString() });
+            return View(model);
         }
 
         [HttpPost]
         public IActionResult Add(Vinyl model)
         {
+            model.GenreList = _genService.List().Select(a => new SelectListItem { Text = a.GenreName, Value = a.Id.ToString() });
             if (!ModelState.IsValid) 
             {
                 return View(model);
-
             }
-            var fileResult = this._filelService.SaveImage(model.ImageFile);
+            if (model.ImageFile != null) 
+            { 
+            var fileResult = this._fileService.SaveImage(model.ImageFile);
             if (fileResult.Item1 == 0) 
             {
                 TempData["msg"] = "File could not saved";
+                return View(model);
             }
             var imageName = fileResult.Item2;
             model.VinylImage = imageName;
+            }
+            
             var result = _vinylService.Add(model);
             if (result) 
             {
@@ -52,16 +63,34 @@ namespace MusicStarStore.Controllers
 
         public IActionResult Edit(int id)
         {
-            var data = _vinylService.GetById(id);
-            return View(data);
+            var model = _vinylService.GetById(id);
+            var selectedGenres = _vinylService.GetGenreByVinylId(model.Id);
+            MultiSelectList multiGenreList = new MultiSelectList(_genService.List(), "Id","GenreName", selectedGenres);
+            model.MultiGenreList = multiGenreList;
+            return View(model);
         }
 
         [HttpPost]
-        public IActionResult Update(Vinyl model)
+        public IActionResult Edit(Vinyl model)
         {
+            var selectedGenres = _vinylService.GetGenreByVinylId(model.Id);
+            MultiSelectList multiGenreList = new MultiSelectList(_genService.List(), "Id", "GenreName", selectedGenres);
+            model.MultiGenreList = multiGenreList;
+
             if (!ModelState.IsValid)
             {
                 return View(model);
+            }
+            if (model.ImageFile != null)
+            {
+                var fileResult = this._fileService.SaveImage(model.ImageFile);
+                if (fileResult.Item1 == 0)
+                {
+                    TempData["msg"] = "File could not saved";
+                    return View(model);
+                }
+                var imageName = fileResult.Item2;
+                model.VinylImage = imageName;
             }
             var result = _vinylService.Update(model);
             if (result)

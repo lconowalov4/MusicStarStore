@@ -1,4 +1,4 @@
-﻿@model IEnumerable<MusicStarStore.Models.Domain.Genre>
+﻿@model MusicStarStore.Models.DTO.VinylListVm
 @{
 }
 
@@ -25,26 +25,32 @@
 <body>
     <section class="container">
         <div class="tbl-container">
-            <h2>Genres</h2>
+            <h2>Vinyls</h2>
 
             <table>
 
                 <tr>
-                    <th>Name</th>
+                    <th>Title</th>
+                    <th>Artist</th>
+                    <th>Genre</th>
+                    <th>Image</th>
                     <th>Action</th>
                 </tr>
-                @foreach (var item in Model) {  
+                @foreach (var item in Model.VinylList) {  
                     <tr>
-                    <td>@item.GenreName</td>
+                    <td>@item.Title</td>
+                    <td>@item.Artist</td>
+                    <td>@item.GenreNames</td>
+                    <td><img style="height:100px; width:100px;" src="/Uploads/@item.VinylImage" /></td>
                     <td>
-                        <a href="/Genre/Edit?id=@item.Id" class="btn btn-default"><i class="fa fa-edit"></i></a>
-                        <a onclick="return window.confirm('Are you sure?')" href="/Genre/Delete?id=@item.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                        <a href="/Vinyl/Edit?id=@item.Id" class="btn btn-default"><i class="fa fa-edit"></i></a>
+                        <a onclick="return window.confirm('Are you sure?')" href="/Vinyl/Delete?id=@item.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
                     </td>
                 </tr> 
                 }
             </table>
             <div class="input-container">
-                <a href="/Genre/Add" class="btn btn-sec">Back</a>
+                <a href="/Vinyl/Add" class="btn btn-sec">Back</a>
             </div>
         </div>
     </section>

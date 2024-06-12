@@ -12,5 +12,7 @@ namespace MusicStarStore.Repositories.Abstract
         Vinyl GetById(int id);
         bool Delete(int id);
         VinylListVm List();
+
+        List<int> GetGenreByVinylId(int vinylId);
     }
 }

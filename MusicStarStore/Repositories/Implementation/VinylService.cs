@@ -46,6 +46,10 @@ namespace MusicStarStore.Repositories.Implementation
                 { 
                     return false; 
                 }
+                var vinylGenres = ctx.VinylGenre.Where(a => a.VinylId == data.Id);
+                foreach (var vinylGenre in vinylGenres) {
+                    ctx.VinylGenre.Remove(vinylGenre);
+                }
                 ctx.Vinyl.Remove(data);
                 ctx.SaveChanges();
                 return true;
@@ -64,10 +68,23 @@ namespace MusicStarStore.Repositories.Implementation
 
         public VinylListVm List()
         {
-            var list = ctx.Vinyl.AsQueryable();
+            var list = ctx.Vinyl.ToList();
+
+            foreach (var vinyl in list) 
+            { 
+                var genres = (from genre in ctx.Genre 
+                              join vg in ctx.VinylGenre
+                              on genre.Id equals vg.GenreId
+                              where vg.VinylId == vinyl.Id
+                              select genre.GenreName
+                              ).ToList();
+                var genreNames = string.Join(',', genres);
+                vinyl.GenreNames = genreNames;
+            }
+
             var data = new VinylListVm
             {
-                VinylList = list
+                VinylList = list.AsQueryable()
             };
             return data;
         }
@@ -85,6 +102,12 @@ namespace MusicStarStore.Repositories.Implementation
             {
                 return false;
             }
+        }
+
+    public List<int> GetGenreByVinylId(int vinylId)
+        {
+            var genreIds = ctx.VinylGenre.Where(a => a.VinylId == vinylId).Select(a => a.GenreId).ToList();
+            return genreIds;
         }
     }
 }
