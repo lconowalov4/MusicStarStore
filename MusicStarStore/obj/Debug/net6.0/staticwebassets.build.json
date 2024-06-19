@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YQwGi7yq6/MfzC9qkgygXQeun48AdiB7Fm3Sq512XD0=",
+  "Hash": "3AWfjARtdJ7YhMVY08r7hSwk8f+NCUrN2nFAhqnXNJA=",
   "Source": "MusicStarStore",
   "BasePath": "_content/MusicStarStore",
   "Mode": "Default",
@@ -1214,12 +1214,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\wwwroot\\Uploads\\9466294e-a821-4ea7-be64-28467a396dbd.jpg",
+      "Identity": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\wwwroot\\Uploads\\8f72429c-e2e2-4e0e-adca-b9b9475ee11d.jpg",
       "SourceId": "MusicStarStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\wwwroot\\",
       "BasePath": "_content/MusicStarStore",
-      "RelativePath": "Uploads/9466294e-a821-4ea7-be64-28467a396dbd.jpg",
+      "RelativePath": "Uploads/8f72429c-e2e2-4e0e-adca-b9b9475ee11d.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1230,15 +1230,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\9466294e-a821-4ea7-be64-28467a396dbd.jpg"
+      "OriginalItemSpec": "wwwroot\\Uploads\\8f72429c-e2e2-4e0e-adca-b9b9475ee11d.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\wwwroot\\Uploads\\a88f1887-b502-4b88-8057-4d4cc1e7014b.jpg",
+      "Identity": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\wwwroot\\Uploads\\dbe81ddb-3dbf-42a9-982b-6e859f151b11.jpg",
       "SourceId": "MusicStarStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\wwwroot\\",
       "BasePath": "_content/MusicStarStore",
-      "RelativePath": "Uploads/a88f1887-b502-4b88-8057-4d4cc1e7014b.jpg",
+      "RelativePath": "Uploads/dbe81ddb-3dbf-42a9-982b-6e859f151b11.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1249,45 +1249,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\a88f1887-b502-4b88-8057-4d4cc1e7014b.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\wwwroot\\Uploads\\a89909aa-1365-417c-b73d-30cdbc0b3fb8.jpg",
-      "SourceId": "MusicStarStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\wwwroot\\",
-      "BasePath": "_content/MusicStarStore",
-      "RelativePath": "Uploads/a89909aa-1365-417c-b73d-30cdbc0b3fb8.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\a89909aa-1365-417c-b73d-30cdbc0b3fb8.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\wwwroot\\Uploads\\b2ed43c9-efc0-4808-8893-c88d9b0b5315.jpg",
-      "SourceId": "MusicStarStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\wwwroot\\",
-      "BasePath": "_content/MusicStarStore",
-      "RelativePath": "Uploads/b2ed43c9-efc0-4808-8893-c88d9b0b5315.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\b2ed43c9-efc0-4808-8893-c88d9b0b5315.jpg"
+      "OriginalItemSpec": "wwwroot\\Uploads\\dbe81ddb-3dbf-42a9-982b-6e859f151b11.jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\wwwroot\\Uploads\\e69daa6c-46a8-416f-981b-fe8ec27a69db.jpg",

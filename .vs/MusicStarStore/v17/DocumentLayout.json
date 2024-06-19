@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|c:\\users\\admin\\source\\repos\\musicstarstore\\musicstarstore\\repositories\\implementation\\vinylservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|solutionrelative:musicstarstore\\repositories\\implementation\\vinylservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|c:\\users\\admin\\source\\repos\\musicstarstore\\musicstarstore\\controllers\\vinylcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|solutionrelative:musicstarstore\\controllers\\vinylcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|c:\\users\\admin\\source\\repos\\musicstarstore\\musicstarstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|solutionrelative:musicstarstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|c:\\users\\admin\\source\\repos\\musicstarstore\\musicstarstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|solutionrelative:musicstarstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|c:\\users\\admin\\source\\repos\\musicstarstore\\musicstarstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|solutionrelative:musicstarstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|c:\\users\\admin\\source\\repos\\musicstarstore\\musicstarstore\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|solutionrelative:musicstarstore\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|c:\\users\\admin\\source\\repos\\musicstarstore\\musicstarstore\\views\\vinyl\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|solutionrelative:musicstarstore\\views\\vinyl\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|c:\\users\\admin\\source\\repos\\musicstarstore\\musicstarstore\\repositories\\implementation\\vinylservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|solutionrelative:musicstarstore\\repositories\\implementation\\vinylservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|c:\\users\\admin\\source\\repos\\musicstarstore\\musicstarstore\\models\\dto\\vinyllistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|solutionrelative:musicstarstore\\repositories\\abstract\\igenreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|c:\\users\\admin\\source\\repos\\musicstarstore\\musicstarstore\\views\\vinyl\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|solutionrelative:musicstarstore\\views\\vinyl\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|c:\\users\\admin\\source\\repos\\musicstarstore\\musicstarstore\\views\\vinyl\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A7D391A-AEA1-4349-98EE-363E88B4D9CC}|MusicStarStore\\MusicStarStore.csproj|solutionrelative:musicstarstore\\views\\vinyl\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -42,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 337,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +94,55 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MusicStarStore\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MusicStarStore\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T20:09:04.971Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MusicStarStore\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MusicStarStore\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T19:58:50.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MusicStarStore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MusicStarStore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T19:56:52.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenreController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Controllers\\GenreController.cs",
+              "RelativeDocumentMoniker": "MusicStarStore\\Controllers\\GenreController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Controllers\\GenreController.cs",
+              "RelativeToolTip": "MusicStarStore\\Controllers\\GenreController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T19:56:22.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "VinylListVm.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Models\\DTO\\VinylListVm.cs",
               "RelativeDocumentMoniker": "MusicStarStore\\Models\\DTO\\VinylListVm.cs",
@@ -90,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "IGenreService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Repositories\\Abstract\\IGenreService.cs",
               "RelativeDocumentMoniker": "MusicStarStore\\Repositories\\Abstract\\IGenreService.cs",
@@ -102,19 +166,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Views\\Vinyl\\Edit.cshtml",
               "RelativeDocumentMoniker": "MusicStarStore\\Views\\Vinyl\\Edit.cshtml",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Views\\Vinyl\\Edit.cshtml",
               "RelativeToolTip": "MusicStarStore\\Views\\Vinyl\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-12T20:49:11.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "VinylList.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Views\\Vinyl\\VinylList.cshtml",
               "RelativeDocumentMoniker": "MusicStarStore\\Views\\Vinyl\\VinylList.cshtml",
@@ -126,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Vinyl.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Models\\Domain\\Vinyl.cs",
               "RelativeDocumentMoniker": "MusicStarStore\\Models\\Domain\\Vinyl.cs",
@@ -138,19 +202,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "VinylController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Controllers\\VinylController.cs",
               "RelativeDocumentMoniker": "MusicStarStore\\Controllers\\VinylController.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Controllers\\VinylController.cs",
               "RelativeToolTip": "MusicStarStore\\Controllers\\VinylController.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAUwBoAAABQAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T18:36:07.246Z"
+              "WhenOpened": "2024-06-12T18:36:07.246Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Views\\Vinyl\\Add.cshtml",
               "RelativeDocumentMoniker": "MusicStarStore\\Views\\Vinyl\\Add.cshtml",
@@ -162,16 +227,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "VinylService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Repositories\\Implementation\\VinylService.cs",
               "RelativeDocumentMoniker": "MusicStarStore\\Repositories\\Implementation\\VinylService.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\MusicStarStore\\MusicStarStore\\Repositories\\Implementation\\VinylService.cs",
               "RelativeToolTip": "MusicStarStore\\Repositories\\Implementation\\VinylService.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAswEwAAAA7AAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAwGIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T20:53:59.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T20:53:59.929Z"
             }
           ]
         },

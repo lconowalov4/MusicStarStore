@@ -1,21 +1,24 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MusicStarStore.Models;
+using MusicStarStore.Repositories.Abstract;
+using MusicStarStore.Repositories.Implementation;
 using System.Diagnostics;
 
 namespace MusicStarStore.Controllers
 {
+    
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IVinylService _vinylService;
+        public HomeController(IVinylService vinylService)
         {
-            _logger = logger;
+            _vinylService = vinylService;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var vinyls = _vinylService.List();
+            return View(vinyls);
         }
 
         public IActionResult About()

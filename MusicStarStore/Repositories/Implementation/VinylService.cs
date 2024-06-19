@@ -93,6 +93,21 @@ namespace MusicStarStore.Repositories.Implementation
         {
             try
             {
+                var genresToDeleted = ctx.VinylGenre.Where(a => a.VinylId == model.Id && !model.Genres.Contains(a.GenreId)).ToList(); ;
+                foreach (var vGenre in genresToDeleted) 
+                {
+                    ctx.VinylGenre.Remove(vGenre);
+                }
+                
+                foreach(int genId in model.Genres) 
+                {
+                    var vinylGenre = ctx.VinylGenre.FirstOrDefault(a => a.VinylId == model.Id && a.GenreId == genId);
+                    if (vinylGenre == null) 
+                    {
+                        vinylGenre = new VinylGenre { GenreId = genId, VinylId = model.Id };
+                        ctx.VinylGenre.Add(vinylGenre);
+                    }
+                }
                 ctx.Vinyl.Update(model);
                 ctx.SaveChanges();
                 return true;
