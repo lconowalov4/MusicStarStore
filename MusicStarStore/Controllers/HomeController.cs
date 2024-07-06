@@ -15,9 +15,9 @@ namespace MusicStarStore.Controllers
             _vinylService = vinylService;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string term="", int currentPage = 1)
         {
-            var vinyls = _vinylService.List();
+            var vinyls = _vinylService.List(term, true, currentPage);
             return View(vinyls);
         }
 
@@ -35,6 +35,12 @@ namespace MusicStarStore.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult VinylDetail(int vinylId)
+        {
+            var vinyl = _vinylService.GetById(vinylId);
+            return View(vinyl);
         }
     }
 }

@@ -3,15 +3,15 @@
     Layout = "_Layout";
 }
 <section class="search-bar">
-    <form>
-        <input type="text" placeholder="Search here">
+    <form method="get" asp-action="Index">
+        <input type="text" name="term" placeholder="Search here">
         <button type="submit"><i class="fa fa-search"></i></button>
     </form>
 </section>
 <section class="vinyls">
       @foreach (var vinyl in Model.VinylList)
     {
-      <div class="vinyl-card" onclick="window.location.href='/vinyl-detail.html'">
+      <div class="vinyl-card" onclick="window.location.href='/Home/VinylDetail?vinylId=@vinyl.Id'">
         <div class="vinyl-image">
             <img src="/Uploads/@vinyl.VinylImage">
         </div>
@@ -25,12 +25,14 @@
 </section>
 
 <div class="pagination">
-    <a href="#">&laquo;</a>
-    <a href="#">1</a>
-    <a class="active" href="#">2</a>
-    <a href="#">3</a>
-    <a href="#">4</a>
-    <a href="#">5</a>
-    <a href="#">6</a>
-    <a href="#">&raquo;</a>
+    @for(int i = 1; i <= Model.TotalPages; i++) 
+    {
+        if (i == Model.CurrentPage)
+        {
+            <a href="/Home/Index?currentPage=@i&term=@Model.Term" class="active">@i</a>
+        } else
+        {
+            <a href="/Home/Index?currentPage=@i&term=@Model.Term">@i</a>
+        }
+    }
 </div>

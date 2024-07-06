@@ -11,8 +11,9 @@ namespace MusicStarStore.Repositories.Abstract
         bool Update(Vinyl model);
         Vinyl GetById(int id);
         bool Delete(int id);
-        VinylListVm List();
+        VinylListVm List(string term="", bool paging = false, int currentPage = 0);
 
         List<int> GetGenreByVinylId(int vinylId);
+
     }
 }

@@ -13,7 +13,6 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: var(--bg-color);
-    /* padding:0 3rem; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,7 +21,6 @@ body {
 .nav-bar {
     font-family: "Poppins", sans-serif;
     display: flex;
-    /* background-color: var(--nav-bg-color); */
     padding: 1.1rem 0.5px;
     width: 100%;
     justify-content: space-around;
@@ -116,20 +114,17 @@ body {
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
-    /* background-color: red; */
     font-family: var(--font-mukta);
 }
 
 .vinyl-card {
     padding: 2%;
     margin: 2%;
-    /*flex-basis: 16%;*/
     width: 16%;
     display: flex;
     flex-direction: column;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
     cursor: pointer;
-    /* background-color: yellow; */
 }
 
     .vinyl-card:hover {

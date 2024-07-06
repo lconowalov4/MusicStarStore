@@ -66,9 +66,27 @@ namespace MusicStarStore.Repositories.Implementation
             return ctx.Vinyl.Find(id);
         }
 
-        public VinylListVm List()
+        public VinylListVm List(string term="", bool paging = false, int currentPage = 0)
         {
+            var data = new VinylListVm();
+
             var list = ctx.Vinyl.ToList();
+            if(!string.IsNullOrEmpty(term)) 
+            {
+                term = term.ToLower();
+                list = list.Where(a => a.Title.ToLower().StartsWith(term)).ToList();
+            }
+
+            if (paging)
+            {
+                int pageSize = 5;
+                int count = list.Count;
+                int TotalPages = (int)Math.Ceiling(count /(double)pageSize);
+                list = list.Skip((currentPage-1)*pageSize).Take(pageSize).ToList();
+                data.PageSize = pageSize;
+                data.CurrentPage = currentPage;
+                data.TotalPages = TotalPages;
+            }
 
             foreach (var vinyl in list) 
             { 
@@ -82,10 +100,8 @@ namespace MusicStarStore.Repositories.Implementation
                 vinyl.GenreNames = genreNames;
             }
 
-            var data = new VinylListVm
-            {
-                VinylList = list.AsQueryable()
-            };
+            data.VinylList = list.AsQueryable();
+
             return data;
         }
 
